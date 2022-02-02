@@ -5,7 +5,7 @@
   </header>
   <% if enhanced_cart.empty? %>
 
-  <h2>Your cart is empty! Take a look at our <%= link_to 'homepage', :root %> to see if something peaks your interest...</h2>
+  <h2 class="alert alert-warning" >Your cart is empty! Take a look at our <%= link_to 'homepage', :root %> to see if something peaks your interest...</h2>
 
   <% else %>
   <div class="panel panel-default items">
