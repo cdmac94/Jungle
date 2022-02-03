@@ -1,31 +1,28 @@
-<h1>Admin Dashboard</h1>
-<div>
-<%= @apparel_count %>
-</div>
+<h1 class="text-center">Admin Dashboard</h1>
 
 <div class="panel panel-default items">
   <table class="table table-bordered">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Quantity</th>
+        <th class="text-center">Type</th>
+        <th class="text-center">Quantity</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>
+        <td class="text-center" >
           Products:
         </td>
-        <td class="list-group-item">
+        <td class="info text-center status">
           <%= link_to @product_count, [:admin, :products]%>
         </td>
       </tr>
       <tr>
-        <td>
+        <td class="text-center">
           Categories:
         </td>
-        <td class="list-group-item">
-        <%= link_to @category_list.count, :root %>
+        <td class="success text-center status">
+        <%= link_to @category_list, :root %>
         </td>
       </tr>
     </tbody>
