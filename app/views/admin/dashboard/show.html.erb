@@ -1,2 +1,33 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1>
+<div>
+<%= @apparel_count %>
+</div>
+
+<div class="panel panel-default items">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Products:
+        </td>
+        <td class="list-group-item">
+          <%= link_to @product_count, [:admin, :products]%>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Categories:
+        </td>
+        <td class="list-group-item">
+        <%= link_to @category_list.count, :root %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div> 
