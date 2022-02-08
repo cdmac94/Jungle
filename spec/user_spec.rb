@@ -100,6 +100,8 @@ RSpec.describe User, type: :model do
       @user.password_confirmation = "test_pass1"
       @user.password_digest = "test_pass1"
 
+      @user.save
+
       @user2 = User.new
       @user2.first_name = "Alice"
       @user2.last_name = "Test"
@@ -107,6 +109,8 @@ RSpec.describe User, type: :model do
       @user2.password = "test_pass1"
       @user2.password_confirmation = "test_pass1"
       @user2.password_digest = "test_pass1"
+
+      @user2.save
 
       expect(@user2).to_not be_valid
       expect(@user).to be_valid
