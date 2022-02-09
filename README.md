@@ -1,6 +1,12 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. The app was created using using test driven development with the Rspec library.
+Stripe was the platform used for payments. 
+
+## Functions
+
+The app allows admins to add products for sale and categories for them to be organized into. Users are able to register, sign in and sign out. 
+Users can add items to their cart and orders can submitted.
 
 ## Additional Steps for Apple M1 Machines
 
@@ -8,6 +14,19 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
 2. Remove Gemfile.lock
 3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
+
+## What it looks like
+
+  
+
+  Sign up page
+
+  
+
+  Specific category page while logged in
+
+
+  Page with filled cart
 
 ## Setup
 
