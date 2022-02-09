@@ -18,13 +18,15 @@ Users can add items to their cart and orders can submitted.
 ## What it looks like
 
   
+<img width="1792" alt="Screen Shot 2022-02-09 at 2 44 19 PM" src="https://user-images.githubusercontent.com/91284012/153303947-53635c8d-331f-439b-acaf-ad7bac552433.png">
 
   Sign up page
 
-  
+<img width="1792" alt="Screen Shot 2022-02-09 at 2 45 01 PM" src="https://user-images.githubusercontent.com/91284012/153303990-b09838aa-e310-4715-832a-577fcc25abe2.png">
 
   Specific category page while logged in
 
+<img width="1792" alt="Screen Shot 2022-02-09 at 2 45 09 PM" src="https://user-images.githubusercontent.com/91284012/153304014-3a0178ab-24f8-4fec-824d-cb80c7d57569.png">
 
   Page with filled cart
 
